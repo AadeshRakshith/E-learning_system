@@ -1,0 +1,161 @@
+/* html{
+    background-image: url(https://img.freepik.com/free-photo/preteen-boy-uses-laptop-make-video-call-with-his-teacher_158595-7520.jpg?t=st=1657798212~exp=1657798812~hmac=076c09f7e695286711a2c42d0884404b2fa1ce0dbc22b491ee01ec7b34cc61fe&w=1060);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+
+} */
+html { 
+    /* background: url(https://img.freepik.com/free-photo/preteen-boy-uses-laptop-make-video-call-with-his-teacher_158595-7520.jpg?t=st=1657798212~exp=1657798812~hmac=076c09f7e695286711a2c42d0884404b2fa1ce0dbc22b491ee01ec7b34cc61fe&w=1060) */
+    background-image: url(https://images.unsplash.com/photo-1568585219057-9206080e6c74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    /* no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .modal::backdrop{
+    background-color:rgba(10, 10, 10, 0.6);
+    opacity:0.6;
+  }
+
+  .modal{
+    border-radius: 0.8rem;
+  }
+
+  #close{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .close:hover{
+    background-color: rgb(184, 30, 61);
+    transition: 0.3s;
+}
+  .close{
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-style: none;
+    color: aliceblue;
+    border-radius: 50%;
+    background-color: rgb(230, 57, 92);
+    padding:0 0.8rem;
+  }
+
+
+
+  .modal form{
+    
+        /* border: 2px solid greenyellow; */
+        width: 22rem;
+        display: flex;
+        justify-content: space-evenly;
+  }
+#chooseFile{
+    display: none;
+
+}
+
+#upload{
+    display: none;
+}
+
+
+.fileLabel:hover, .upload_submit:hover{
+    box-shadow: 0 15px 16px 0 rgba(0, 0, 0, 0.4);
+    transform: translate(0px, -1px) ;
+    transition: all 0.5s;;
+}
+.upload_submit, .fileLabel{
+    cursor: pointer;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background-color: rgb(106, 188, 255);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-style: none;
+    border-radius: 2px;
+}
+.upload_submit:hover{
+    background-color: rgb(75, 156, 222);
+    transition: 0.3s;
+}
+.fileLabel{
+    margin-right: 1rem;
+    background-color: rgb(80, 220, 150);
+}
+
+.fileLabel:hover{
+    transition: 0.3s;
+    background-color: rgb(50, 176, 107);
+}
+
+  .close{
+    cursor: pointer;
+  }
+  
+  .modal{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.4);
+    padding: 2rem 0;
+    padding-top: 2.4rem;
+    position: absolute;
+    border:3px solid rgb(248, 163, 154);
+    top: 30%;
+    left: 40%;
+  }
+  .heading{
+    color: aliceblue;
+    text-align: center;
+    width: 50%;
+    margin: 2rem auto;
+    background-color:rgba(10, 10, 10, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 0.8rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.09rem;
+    
+  }
+li{
+    list-style: none;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+li a{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.04rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover{
+    background-color: rgba(0, 0, 0, 0.4) ;
+    color:rgb(249, 249, 249);
+    padding: 0.2rem 0.6rem;
+    /* border: 2px solid green; */
+    border-radius: 0.4rem;
+    transition: 0.2s;
+}
+
+.list{
+    width: 70%;
+    color: aliceblue;
+    background-color:rgba(4, 4, 4, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0.6rem;
+    justify-content: space-around;
+    display: flex;
+    padding: auto;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+
+

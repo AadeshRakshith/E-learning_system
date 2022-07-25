@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px; 
+}
+.logo{
+    color: antiquewhite;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: solid aqua;
+    margin-top: 25px;
+    color: antiquewhite;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100pz;
+    height: 40px;
+    background: aqua;
+    border: 2px solid aqua;
+    margin-top: 25px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.contents{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+.contents .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contents h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+}
+
+
+.top{
+    margin-bottom: 2rem;
+}
+
+.faculty_list{
+    /* border: 3px solid tan; */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+th, td{
+    text-align: center;
+}
+
+.hero_heading{
+    font-size: 4rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.subheading{
+    color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+.tableh{
+    background-color: rgb(255, 228, 196, 0.3);
+}
+.cell{
+    /* background-color: magenta; */
+    font-weight: 300;
+    background-color: rgba(156, 233, 243, 0.3);
+    font-size: 1.2rem;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
